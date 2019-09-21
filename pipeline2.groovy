@@ -7,13 +7,12 @@ displayName('Project D')
                 url('https://github.com/vsindhu-2k19/myautomationjenkins2.git') 
                   }
           }
-      }        
- definition {
-         cps  {
-                script(readFileFromWorkspace('C2.groovy'))
-                
-              }
-           }   
+      }    
+  steps {  
+         dsl {
+                external('task1.groovy') 
+             }
+         }
 }
 
   

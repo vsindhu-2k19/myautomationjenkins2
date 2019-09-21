@@ -1,7 +1,9 @@
 node ('master')
    {
-     stage ('prepare')  {}
-     stage ('Clone git') { }
+     stage ('prepare')  
+          {println("Preparing...")}
+     stage ('Clone git') 
+          {println("CLoning the git...") }
      stage ('Build') { }
      stage ('Deploy') { }
      stage ('Notify') { }
