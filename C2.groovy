@@ -3,7 +3,7 @@ node ('master')
      stage ('prepare')  
           {println("Preparing...")}
      stage ('Clone git') 
-          {println("CLoning the git...") }
+          load(app/clne.groovy)
      stage ('Build') { }
      stage ('Deploy') { }
      stage ('Notify') { }
