@@ -3,8 +3,8 @@ pipelineJob('Pipeline2') {
   displayName('Project D')
  scm {git {
          remote {
-                name('task1')
-                url('git@github.com:vsindhu-2k19/myautomationjenkins2.git')
+                name('origin')
+                url('https://github.com/vsindhu-2k19/myautomationjenkins2.git')
                }
            }
       }  
