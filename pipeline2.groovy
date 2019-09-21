@@ -1,6 +1,5 @@
 pipelineJob('Pipeline2') {
-description("Pipeline created automatically through Task3")
-displayName('Project D')
+
   scm {
       git {
             remote {
