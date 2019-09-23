@@ -1,0 +1,393 @@
+    1  git version--
+    2  pwd
+    3  clear
+    4  cd
+    5  cd test
+    6  mkdir github
+    7  cd github
+    8  touch test1.txt 3343
+    9  cd test1.txt
+   10  cat test1.txt
+   11  nano text1.txt
+   12  cat test1.txt
+   13  cat text1.txt
+   14  vi text1.txt
+   15  vi test1.txt
+   16  jav --version
+   17  java --version
+   18  sudo java --version
+   19  sudo apt-update
+   20  sudo apt update
+   21  sudo upgrade
+   22  sudo apt upgrade
+   23  sudo apt-cache search open_jdk.*
+   24  sudo apt-cache search jdk
+   25  sudo apt install default-jdk
+   26  java --version
+   27  apt-get update
+   28  sudo apt-get update
+   29  sudo java --version
+   30  java --version
+   31  sudo apt-cache search openjdk*
+   32  sudo apt install openjdk-8-jdk
+   33  sudo apt install maven 
+   34  java -version 
+   35  mvn --version 
+   36  cd /etc/maven
+   37  ls
+   38  cd m2.conf
+   39  vi settings.xml
+   40  sudo vi settings.xml
+   41  sudo vim settings.xml
+   42  sudo nano settings.xml
+   43  cat m2.conf
+   44  cd/
+   45  cd\
+   46  touch file1.txt 
+   47  vi file1.txt
+   48  cat file1.txt
+   49  sudo apt-cache search openjdk*
+   50  cd /etc/maven
+   51  ls
+   52  cat settings.xml
+   53  ls
+   54  cd m2.conf
+   55  cat m2.conf
+   56  ubuntu -version
+   57  sudo ubuntu -version
+   58  code
+   59  exit
+   60  pwd
+   61  id
+   62  cp Downloads/jjn .
+   63  cp -r Downloads/jjn .
+   64  ls -al
+   65  ls -al jjn/
+   66  mvn -version
+   67  mvn clean
+   68  cd jjn
+   69  ls -al
+   70  mvn compile
+   71  ls
+   72  code pom.xml
+   73  cd Downloads/
+   74  ls -al
+   75  tar -xzvf apache-tomcat-8.5.45.tar.gz .
+   76  sudo tar -xzvf apache-tomcat-8.5.45.tar.gz .
+   77  sudo tar -zxvf apache-tomcat-8.5.45.tar.gz .
+   78  cd /opt
+   79  ls -al
+   80  mv ~/Downloads/apache-tomcat-8.5.45 tomcat8
+   81  sudo mv ~/Downloads/apache-tomcat-8.5.45 tomcat8
+   82  ls -al
+   83  cd tomcat8/
+   84  ls 
+   85  cd bin
+   86  ls -al
+   87  pwd
+   88  mv catalina.sh catalina
+   89  catalina start
+   90  ./catalina 
+   91  sudo ufw enable
+   92  sudo ufw allow 8080
+   93  ./catalina start
+   94  ls -al
+   95  pwd
+   96  cd 
+   97  pwd
+   98  vim .bashrc
+   99  vi .bashrc
+  100  nano .bashrc
+  101  source .bashrc
+  102  history
+  103  screendump
+  104  history > cmds1.txt
+  105  pwd
+  106  ltr -la
+  107  ltr -a
+  108  -ltr -a
+  109  ltr 
+  110  cat .bashrc
+  111  cd opt
+  112  cd opt/
+  113  cd opt\
+  114  cd /opt
+  115  ls ltr
+  116  cd /servers
+  117  cd /bin
+  118  cd x-special/nautilus-clipboard
+  119  copy
+  120  file:///home/ubuntu/Downloads/jjn
+  121  ls
+  122  nano catalina-tasks.xml
+  123  ls
+  124  cd
+  125  cd /opt/tomcat8
+  126  ltr
+  127  ls -ltr
+  128  cd conf
+  129  ls
+  130  nano tomcat-users.xsd
+  131  nano tomcat-users.xml
+  132  cd ..
+  133  catalina stop
+  134  catalina start
+  135  ls 
+  136  cd logs
+  137  ls -l
+  138  cd..
+  139  cd /
+  140  cd /opt/tomcat8
+  141  ls
+  142  cd conf
+  143  ls
+  144  cat tomcat-users.xml
+  145  cd..
+  146  ccd
+  147  cd
+  148  pwd
+  149  cat tomcat-users.xml
+  150  cd opt
+  151  cd /opt/tomcat/conf
+  152  cd /opt/tomcat8/conf
+  153  cat tomcat-users.xml
+  154  cd..
+  155  cd
+  156  cd /opt/tomcat8
+  157  ls
+  158  cd webapps
+  159  mv ~/downloads/jenkins.war .
+  160  mv ~/jenkins.war .
+  161  mv ~/Downloads/jenkins.war .
+  162  ls
+  163  ccd
+  164  cd
+  165  cd /op/tomcat8
+  166  cd /op/tomcat8/
+  167  cd /opt/tomcat8/
+  168  cd logs
+  169  ls
+  170  cat catalina.out
+  171  cd
+  172  ls
+  173  ls -la
+  174  cd .jenkins
+  175  ls -la
+  176  cd secrets
+  177  ls
+  178  cd initialAdminPassword
+  179  cat initialAdminPassword
+  180  cd/
+  181  cd\
+  182  pwd
+  183  ls
+  184  ls -la
+  185  cd opt
+  186  historyhh 
+  187  history > sep07a.txt
+  188  pwd
+  189  ls -la
+  190  ls
+  191  history
+  192  pwd
+  193  ls
+  194  cd github
+  195  ls
+  196  cdcd gitrepo
+  197  cd gitrepo\
+  198  ls 
+  199  cd\
+  200  cd gitrepo
+  201  ls
+  202  cd myautomationjenkine
+  203  cd myautomationjenkins
+  204  cd
+  205  cd gitrepo
+  206  cd myautomationjenkins
+  207  history
+  208  cd /opt
+  209  ls
+  210  cd tomcat8
+  211  ls
+  212  catalina start
+  213  cd/
+  214  cd\
+  215  ls
+  216  cd gitrepo
+  217  ls
+  218  cd myautomationjenkins
+  219  ls
+  220  git status
+  221  git add .
+  222  git commit
+  223  git status
+  224  git push
+  225  ls -la
+  226  mv Pipeline1 pipeline1.groovy
+  227  ls
+  228  git add .
+  229  git commit
+  230  git commit -m "test"
+  231  git commit
+  232  git push
+  233  ls
+  234  cd/
+  235  cd\
+  236  ls
+  237  ls -la
+  238  cd .ssh
+  239  ls
+  240  cat is_rsa.pub
+  241  cat id_rsa.pub
+  242  cat id_rsa
+  243  cat id_rsa.pub
+  244  ls
+  245  cd\
+  246  ls
+  247  cd gitrepo
+  248  ls
+  249  cd ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDEGnZrN3TlZ+0JtIAEwR6Yae6yO/D6w9PKMSxLTroZH8ZgRj9fgpvJD/9xUkY7JHQRVC6Sbv2ueb89JTYge8RrODb4sh5EJyvUyvR5TzY/ksMwyOGeuqss7V6211OOfaGQ+lj3oKNJEQ8M2zMXar93LFa72J4jcP5WX6F1p7GU6pw4vEofqnkaDTwDWhFm2hT/pt2YQ/eudUbsVU1cS1G/NRSFBxLwsUkxodUmPz2+DBKEwHR0+DqfbbOjf9kx4hzOo5rlMJITVOoLXKw4dzUEKb/cn+e0LraDTkU0k3CoG/iNkoMxLPsrWJw/f2mNHdthKbIOqziX6FojB1mUZVJV ubuntu@ubuntu-VirtualBox
+  250  cd myautomationjenkins
+  251  ls
+  252  git status
+  253  git push
+  254  cd\
+  255  cd /opt
+  256  ls
+  257  cd tomcat8
+  258  catalina start
+  259  cd\
+  260  ls
+  261  cd github
+  262  cd\
+  263  cd gitrepo
+  264  ls
+  265  cd myautomationjenkins2
+  266  ls
+  267  git status
+  268  cd\
+  269  cd gitrepo
+  270  cd myautomationjenkins
+  271  git status
+  272  cd gitrepo
+  273  cd..
+  274  cd /
+  275  cd gitrepo
+  276  ls
+  277  pwd
+  278  ls -la
+  279  ls
+  280  cd home
+  281  ls
+  282  cd ubuntu
+  283  ls
+  284  cd gitrepo
+  285  git clone
+  286  git clone git@github.com:vsindhu-2k19/myautomationjenkins2.git
+  287  ls
+  288  cd myautomationjenkins2
+  289  ls
+  290  git status
+  291  git add .
+  292  git commit
+  293  git push
+  294  git status
+  295  git add .
+  296  git commit 
+  297  git add .
+  298  git commit
+  299  git push
+  300  cd \
+  301  cd opt\
+  302  cd \opt
+  303  ls
+  304  cd /opt
+  305  cd tomcat8
+  306  catalina start
+  307  cd\
+  308  ls
+  309  git gitrepo
+  310  cd gitrepo
+  311  ls
+  312  cd myautomationjenkins2
+  313  ls
+  314  git status
+  315  git add .
+  316  git commit
+  317  git push
+  318  git status
+  319  git add .
+  320  git commit
+  321  git push
+  322  git status
+  323  git add .
+  324  git commit
+  325  git push
+  326  git add .
+  327  git commit
+  328  git push
+  329  git add .
+  330  git commit'
+
+
+git commit
+
+
+
+dsf
+
+
+  331  git commit
+  332  git add .
+  333  git commit
+  334  git push
+  335  git status
+  336  git add .
+  337  git commit
+  338  git add .
+  339  git commit
+  340  git push
+  341  cd\
+  342  cd gitrepo
+  343  git clone https://github.com/srikrishnaprakash/pls.git
+  344  ls
+  345  cd pls
+  346  ls
+  347  git add .
+  348  git commit
+  349  git push
+  350  cd cds
+  351  cd\
+  352  cd gitrepo
+  353  ls
+  354  cd myautomationjenkins2
+  355  git status
+  356  git add .
+  357  git commit
+  358  git push
+  359  git -b
+  360  git -branch
+  361  git  branch -A
+  362  git branch -m
+  363  git branch -a
+  364  cd/
+  365  cd\
+  366  cd gitrepo
+  367  git branch -a
+  368  cd lps
+  369  ls
+  370  cd
+  371  cd gitrepo
+  372  ls
+  373  cd myautomationjenkins2
+  374  mkdir app
+  375  cd app
+  376  touch clne.groovy
+  377  cd..
+  378  cd
+  379  cd gitrepo
+  380  cd myautomationjenkins2
+  381  git add .
+  382  git commit
+  383  git push
+  384  history > sep21.txt
