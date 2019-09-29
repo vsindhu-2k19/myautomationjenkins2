@@ -9,7 +9,7 @@ node('master') {
         println("Preparing...")
     }
     stage("Clone"){
-        load ('app/clne.groovy') 
+        load ('app/clne4.groovy') 
     }
     stage("Build"){
         println("Building the app using maven")
