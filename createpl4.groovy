@@ -1,6 +1,7 @@
 pipelineJob('P4DSJ') {
     parameters {
-		stringParam('ApplRepoPL',"$AppRepoSeed", "Application code repo to build")
+		stringParam('EnvironmentPL',"$EnvironmentSeed", "Environment")
+                stringParam('ApplicationPL',"$ApplicationSeed", "Application ")
     }
     definition {
         cps {
