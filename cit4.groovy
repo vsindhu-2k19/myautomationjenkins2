@@ -3,12 +3,12 @@
     stage("Prepare"){
         println("Preparing...")
         git(
-                url: "git@github.com:srikrishnaprakash/pls.git",
+                url: "https://github.com/vsindhu-2k19/myautomationjenkins2.git",
                 branch: "master"
 	    )
         dir('config') {
           git(
-                url: "git@github.com:srikrishnaprakash/conf.git",
+                url: "https://github.com/vsindhu-2k19/myautomationjenkins2.git",
                 branch: "master"
 	        )  
         }
@@ -16,10 +16,10 @@
         
     }
     stage("Clone Application"){
-        load 'app/clne.groovy'
+        load 'app/clne4.groovy'
     }
     stage("Build"){
-        load 'app/bld.groovy'
+        load 'app/bld4.groovy'
     }
     stage("Test"){
         println("Testing...")
