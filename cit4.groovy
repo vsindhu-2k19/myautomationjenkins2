@@ -26,5 +26,6 @@ node ("$NodeName") {
     }
     stage("Deploy"){
         println("Deploying...")
+        sh "Scripts/deploy.sh"
     }
 }
