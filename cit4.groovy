@@ -1,4 +1,4 @@
-("$NodeName") {
+node ("$NodeName") {
     wrks = env.WORKSPACE
     stage("Prepare"){
         println("Preparing...")
