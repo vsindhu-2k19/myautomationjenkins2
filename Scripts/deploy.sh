@@ -1,4 +1,4 @@
-catalina stop
+
+rm -rf /opt/tomcat8/webapps/arapp
 cp -f appl/target/arapp.war /opt/tomcat8/webapps
-rm -r /opt/tomcat8/webapps/arapp
-catalina start
+
