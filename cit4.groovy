@@ -8,7 +8,7 @@ node ("$NodeName") {
 	    )
         dir('config') {
           git(
-                url: "https://github.com/vsindhu-2k19/myautomationjenkins2.git",
+                url: "https://github.com/vsindhu-2k19/conf.git",
                 branch: "master"
 	        )  
         }
