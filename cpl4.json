@@ -1,0 +1,4 @@
+{
+    "btool" : "mvn",
+    "target" : "clean package"
+}

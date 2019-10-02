@@ -1,18 +1,25 @@
-node('master') {
-	git(
-		url: "$ApplRepoPL",
-		
-		branch: "master"
-		)
-	
+("$NodeName") {
+    wrks = env.WORKSPACE
     stage("Prepare"){
         println("Preparing...")
+        git(
+                url: "git@github.com:srikrishnaprakash/pls.git",
+                branch: "master"
+	    )
+        dir('config') {
+          git(
+                url: "git@github.com:srikrishnaprakash/conf.git",
+                branch: "master"
+	        )  
+        }
+        
+        
     }
-    stage("Clone"){
-        load ('app/clne4.groovy') 
+    stage("Clone Application"){
+        load 'app/clne.groovy'
     }
     stage("Build"){
-        println("Building the app using maven")
+        load 'app/bld.groovy'
     }
     stage("Test"){
         println("Testing...")
