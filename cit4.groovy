@@ -3,7 +3,7 @@
     stage("Prepare"){
         println("Preparing...")
         git(
-                url: "https://github.com/vsindhu-2k19/myautomationjenkins2.git",
+                url: "https://github.com/vsindhu-2k19/myautomationjenkins2.git",	
                 branch: "master"
 	    )
         dir('config') {
