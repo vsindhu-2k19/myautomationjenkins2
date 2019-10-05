@@ -26,6 +26,8 @@ node ("$NodeName") {
     }
     stage("Deploy"){
         println("Deploying...")
+        sh "chmod +x Scripts/deploy.sh"
         sh "Scripts/deploy.sh"
+
     }
 }
